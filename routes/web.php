@@ -14,3 +14,10 @@
 Route::get('/', 'BillCalculatorController@index');
 
 Route::get('/submit', 'BillCalculatorController@submit');
+
+Route::get('/env', function () {
+    dump(config('app.name'));
+    dump(config('app.env'));
+    dump(config('app.debug'));
+    dump(config('app.url'));
+});
