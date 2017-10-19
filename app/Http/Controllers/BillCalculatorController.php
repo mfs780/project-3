@@ -8,11 +8,11 @@ class BillCalculatorController extends Controller {
 
     public function index()
     {
-        return 'Bill Calculator';
+        return view('billsplitter');
     }
 
     public function submit()
     {
-        return 'Bill Summary';
+        return view('billsummary');
     }
 }
