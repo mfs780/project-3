@@ -1,6 +1,6 @@
 ## Website URL
 
-<a href="p3.fahadsheikh.me">Project 3</a>
+<a href="http://p3.fahadsheikh.me">Project 3</a>
 
 ## About BillSplitter
 
