@@ -13,6 +13,7 @@
 <body>
 
 	<header>
+		<h1 class="title">bill splitter</h1>
 	</header>
 
 	<section>

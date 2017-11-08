@@ -1,0 +1,138 @@
+.title {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subheader {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.result-container {
+    background-color: lightgray;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 0 auto 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 400px;
+}
+
+.result-amount {
+    color: green;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+}
+
+.billsplitter-form {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 2px;
+    padding: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.billsplitter-form h1 {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+    color: #5C5C5C;
+    font-size: x-large;
+}
+
+.billsplitter-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.billsplitter-form li {
+    display: block;
+    padding: 9px;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.billsplitter-form li:last-child {
+    border: none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.billsplitter-form li > label {
+    display: block;
+    float: left;
+    margin-top: -19px;
+    background: #FFFFFF;
+    height: 14px;
+    padding: 2px 5px 2px 5px;
+    color: #B9B9B9;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.billsplitter-form input[type="text"],
+.billsplitter-form input[type="date"],
+.billsplitter-form input[type="datetime"],
+.billsplitter-form input[type="email"],
+.billsplitter-form input[type="number"],
+.billsplitter-form input[type="search"],
+.billsplitter-form input[type="time"],
+.billsplitter-form input[type="url"],
+.billsplitter-form input[type="password"],
+.billsplitter-form textarea,
+.billsplitter-form select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.billsplitter-form li > span {
+    background: #F3F3F3;
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: #C0C0C0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.billsplitter-form textarea {
+    resize: none;
+}
+
+.billsplitter-form input[type="submit"],
+.billsplitter-form input[type="button"] {
+    background: #2471FF;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid #5994FF;
+    border-radius: 3px;
+    color: #D2E2FF;
+}
+
+.billsplitter-form input[type="submit"]:hover,
+.billsplitter-form input[type="button"]:hover {
+    background: #6B9FFF;
+    color: #fff;
+}
