@@ -15,6 +15,8 @@ Route::get('/', 'BillCalculatorController@index');
 
 Route::post('/submit', 'BillCalculatorController@submit');
 
+Route::get('/submit', 'BillCalculatorController@index');
+
 Route::get('/summary', 'BillCalculatorController@summary');
 
 Route::get('/env', function () {
