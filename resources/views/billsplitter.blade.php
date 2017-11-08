@@ -10,7 +10,7 @@
 
 
 @section('content')
-    <h1 class="subheader">Bill Details</h1>
+    <h2 class="subheader">Bill Details</h2>
 
     <form class="billsplitter-form" method='POST' action='/submit'>
 
@@ -32,7 +32,7 @@
             </li>
             <li>
                 <label for='tip'>How Was The Service?</label>
-                <select name='tip' required>
+                <select id="tip" name='tip'>
                     <option value='0.1'>Poor (10% Tip)</option>
                     <option value='0.15' selected>Good (15% Tip)</option>
                     <option value='0.2'>Great! (20% Tip)</option>

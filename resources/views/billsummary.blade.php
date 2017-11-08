@@ -9,7 +9,7 @@
 @endsection
 
 @section('content')
-    <h1 class="subheader">Bill Summary</h1>
+    <h2 class="subheader">Bill Summary</h2>
 
     <div class="result-container">
         <p class="result-text">Each persion should pay <span class="result-amount">${{ $rounded }}</span></p>
